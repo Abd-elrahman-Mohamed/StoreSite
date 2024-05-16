@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- main css file  -->
+    <link rel="stylesheet" href="../CSS/login_page.css" />
+    <!-- to normalize css page -->
+    <link rel="stylesheet" href="../CSS/normalize.css" />
+    <link rel="stylesheet" href="../CSS/all.min.css" />
+    <title>Log in</title>
+  </head>
+  <body>
+    <!-- heading -->
+    <header>
+      <!-- nav bar -->
+      <nav>
+        <a href="../../index.html"
+          ><i class="fa-solid fa-right-to-bracket"></i> Back To Home</a
+        >
+      </nav>
+    </header>
+    <!-- log in container -->
+    <div class="login-container">
+      <form action="./order-confirmation-page.html">
+        <!-- login div -->
+        <div class="login-div">
+          <h1>Login Now</h1>
+        </div>
+        <!-- email-input -->
+        <div class="email">
+          <label for="email">
+            <i class="fas fa-user"></i>
+          </label>
+          <input
+            name="email"
+            class="input-email"
+            type="email"
+            id="email"
+            placeholder="Email"
+            required
+          />
+        </div>
+        <!-- password input -->
+        <div class="password">
+          <label for="password">
+            <i class="fas fa-lock"></i>
+          </label>
+          <input
+            name="password"
+            class="input-password"
+            type="password"
+            id="password"
+            placeholder="password"
+            required
+            pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*\W).{8,}"
+            title="Password must contain at least one number, one uppercase letter [A] , one lowercase letter [a], one special character [#], and be at least 8 characters long [1-8]"
+          />
+        </div>
+        <!-- login button -->
+        <button type="submit">Log in</button>
+        <!-- create account -->
+        <a class="cna" href="./Create_Account.html">Create New Account</a>
+      </form>
+    </div>
+  </body>
+</html>

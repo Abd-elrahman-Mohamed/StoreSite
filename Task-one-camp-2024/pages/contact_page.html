@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- main css file -->
+    <link rel="stylesheet" href="../CSS/contact_page.css" />
+    <!-- to normalize css page -->
+    <link rel="stylesheet" href="../CSS/normalize.css" />
+    <link rel="stylesheet" href="../CSS/all.min.css" />
+    <!-- page title -->
+    <title>Contact | Store</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <!-- nav bar -->
+      <nav>
+        <a href="../../index.html"> Home </a>
+        <a href="./help_page.html"> Help </a>
+        <a id="contact_page" href="./contact_page.html"> Contact </a>
+      </nav>
+    </header>
+    <!-- container -->
+    <div class="container">
+      <h1>Contact Us</h1>
+      <form action="">
+        <!-- name -->
+        <!-- <label for="Name"> Name: </label> -->
+        <input
+          placeholder="Name"
+          type="text"
+          maxlength="25"
+          name="Name"
+          id="Name"
+        />
+        <!-- telephone -->
+        <!-- <label for="tel">Tel: </label> -->
+        <input
+          type="tel"
+          placeholder="Tel"
+          maxlength="13"
+          name="tel"
+          id="tel"
+        />
+        <!-- email -->
+        <!-- <label for="email">Email: </label> -->
+        <input
+          type="email"
+          placeholder="Email"
+          type="email"
+          name="email"
+          id="email"
+        />
+        <!-- message -->
+        <!-- <label for="subject">Subject: </label> -->
+        <textarea
+          name="subject"
+          id="subject"
+          placeholder="Write something.."
+        ></textarea>
+        <!-- submit -->
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </body>
+</html>

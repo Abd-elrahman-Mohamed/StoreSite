@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+  background-color: #fff;
+}
+/* header style */
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+  padding: 0px 20px;
+}
+header nav {
+  margin-left: 10px;
+  display: flex;
+  justify-content: flex-start;
+}
+header a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  padding: 12px 6px;
+  text-align: center;
+}
+header a:hover {
+  background-color: #fff5;
+}
+/* login-containet */
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: calc(100vh - 41px);
+}
+form {
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 390px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+form .login-div {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 15px 15px 0px 0px;
+  -webkit-border-radius: 15px 15px 0px 0px;
+  -moz-border-radius: 15px 15px 0px 0px;
+  -ms-border-radius: 15px 15px 0px 0px;
+  -o-border-radius: 15px 15px 0px 0px;
+}
+/* email style */
+form .email {
+  display: flex;
+  background-color: #333;
+  margin: 20px auto;
+  padding-left: 20px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  transition: ease 0.4s;
+  -webkit-transition: ease 0.4s;
+  -moz-transition: ease 0.4s;
+  -ms-transition: ease 0.4s;
+  -o-transition: ease 0.4s;
+}
+form .email i {
+  color: #fff;
+  padding-right: 10px;
+}
+form .email input {
+  background-color: transparent;
+  border: 0;
+  padding: 10px 10px;
+}
+form .email input::placeholder {
+  color: #ffffff9a;
+}
+form .email:hover {
+  padding-left: 10px;
+}
+/* password style */
+form .password {
+  display: flex;
+  background-color: #333;
+  margin: 0px auto 20px auto;
+  padding-left: 20px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  transition: ease 0.4s;
+  -webkit-transition: ease 0.4s;
+  -moz-transition: ease 0.4s;
+  -ms-transition: ease 0.4s;
+  -o-transition: ease 0.4s;
+}
+form .password i {
+  color: #fff;
+  padding-right: 10px;
+}
+form .password input {
+  background-color: transparent;
+  border: 0;
+  padding: 10px 10px;
+}
+form .password input::placeholder {
+  color: #ffffff9a;
+}
+form .password:hover {
+  padding-left: 10px;
+}
+/* login-btn-style */
+.login-container button {
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  background-color: #333;
+  border-radius: 10px;
+  margin: 10px auto 5px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  cursor: pointer;
+  transition: ease 0.5s;
+  -webkit-transition: ease 0.5s;
+  -moz-transition: ease 0.5s;
+  -ms-transition: ease 0.5s;
+  -o-transition: ease 0.5s;
+}
+.login-container button:hover {
+  color: #979797;
+}
+/* create new acc btn */
+.login-container .cna {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  background-color: #333;
+  border-radius: 10px;
+  margin: 30px auto 0px;
+  text-align: center;
+  align-items: center;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  transition: ease 0.5s;
+  -webkit-transition: ease 0.5s;
+  -moz-transition: ease 0.5s;
+  -ms-transition: ease 0.5s;
+  -o-transition: ease 0.5s;
+}
+.login-container .cna:hover {
+  color: #979797;
+}
